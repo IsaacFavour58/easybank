@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+html,body{
+    overflow-x: hidden;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+.navlinks{
+    display: flex;
+    gap: 20px;
+}
+
+.navbutton{
+    border-radius: 30px;
+    background:linear-gradient(to right, rgb(0, 255, 213),rgb(0, 153, 255));
+    padding: 10px 15px;
+    font-size: 10px;
+}
+#bg{
+    display: flex;
+    background-color: rgb(229, 241, 239);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.text{
+    width: 50%;
+    padding: 5px 60px;
+
+}
+
+.text h1{
+    padding: 20px 10px;
+    font-size: 50px;
+}
+
+.text p{
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+a{
+    text-decoration: none;
+}
+.textbutton{
+    border-radius: 30px;
+    background:linear-gradient(to right,rgb(0, 255, 213),rgb(0, 153, 255));
+    padding: 10px 15px;
+    font-size: 10px;
+    display: inline-block;
+}
+.backgroundimg{
+    width: 30%;
+    text-decoration: none;
+    
+}
+#choose{
+    background-color: rgb(251, 253, 255);
+    
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   padding: 30px 60px; 
+   gap: 50px;
+}
+.text2{
+    width: 50%;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.text2 h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.pic img{
+    
+    padding: 20px 20px;
+}
+.pic h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.pic p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+#lattest{
+    background-color: mintcream;
+    padding: 30px 60px; 
+}
+.h1{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.lattestbox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.box{
+    box-shadow: 5px 5px 13px #eee;
+}
+
+.box img{
+    width: 100%;
+}
+.box div{
+    padding: 10px;
+}
+
+.box div h1{
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box div h1:hover{
+    color: rgb(11, 121, 194);
+}
+
+.lattestbox p{
+    justify-content: space-between;
+    font-size: 15px;
+}
+.lattestbox a{
+    font-size: 10px;
+}
+#bottom{
+    background-color: hsl(243, 49%, 18%);
+    display: flex;
+    justify-content: space-between;}
+.bottom2 img{
+    padding-bottom: 30px;
+}
+.bottom2{
+ padding-left: 40px;
+ padding-top: 30px;
+ 
+}
+.sociallinks a{
+    color: white;
+    font-size: 20px;
+    gap: 10px;
+    
+}
+
+.links{
+    display: flex;
+    gap: 10rem;
+}
+.links a{
+    color: white;
+}
+.bottomlink1, .bottomlink2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+}
+.lastlink{
+padding: 30px 60px;
+}
+.invites a{
+color: white;
+}
+.re a{
+    color: white;
+}
+
+.re{
+    border-radius: 30px;
+    background:linear-gradient(to right, rgb(0, 255, 213),rgb(0, 153, 255));
+    padding: 10px 15px;
+    display: inline-block;
+    
+}
+.invites{
+    padding-top: 40px;
+    font-size: 10px;
+}
+@media screen and (max-width:992px){
+    .text h1{
+        font-size: 30px;
+    
+    }
+    
+}
+@media  screen and (max-width:768px){
+    #bg{
+        padding: 0px;
+    }
+    .text2{
+        padding-bottom: 0px;
+    }
+    .text2 h1{
+        font-size: 30px;
+    }
+    .pic img{
+        padding: 0px;
+    }
+    .pic p{
+        font-size: 12px;
+    }
+
+    .box div{
+        padding: 0px;
+    }
+    .lattestbox p{
+        font-size: 10px;
+    }
+    .links{
+        gap: 5rem;
+    }
+    .lastlink{
+        padding: 30px 40px;
+    }
+}
+@media screen and (max-width:576px){
+    #nav{
+        padding: 5px;
+    }
+   
+    .text{
+       
+        padding: 40px 30px;
+        width: 90%;
+    }
+    .text h1{
+        font-size: 38px;
+        padding-bottom: 20px;
+    }
+    #bg{
+        flex-direction: column-reverse;
+        justify-content: center;
+       
+    }
+    .backgroundimg{
+        width: 75%;
+       
+        
+       }
+    .text2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+       text-align: center;
+       padding: 60px 10px;
+
+    }
+    .text2 p{
+        font-size: 15px;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    .about{
+        gap: 30px;
+        padding: 20px 40px;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    #lattest{
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .lattestbox{
+        gap: 30px;
+        display: block;
+    }
+    .lattestbox p{
+        font-size: 15px;
+    }
+    .box div h1{
+       font-size: 20px;
+    }
+    #bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .sociallinks{
+        display: flex;
+        width: 100%;
+        gap: 5rem;
+    }
+    
+    .links{
+        gap: 0px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .lastlink{
+        padding: 30px 10px;
+    }
+    .re{
+        padding: 8px 10px;
+    }
+    .invites{
+        font-size: 8px;
+    }
+    
+}
+@media screen and (max-width:480px){
+   #nav img{
+    width: 90%;
+   }
+   .navlinks{
+    gap: 10px;
+    font-size: 15px;
+   }
+   #bg{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+   }
+   .backgroundimg{
+    width: 60%;
+    padding-bottom: 20px;
+   }
+   .text h1{
+    font-size: 30px;
+    
+   }
+   .text{
+    padding: 10px 20px;
+   }
+   
+}
