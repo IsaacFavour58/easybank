@@ -161,9 +161,14 @@ a{
 .links{
     display: flex;
     gap: 10rem;
+    
 }
 .links a{
     color: white;
+    cursor: pointer;
+}
+.links a:hover{
+    color: aquamarine;
 }
 .bottomlink1, .bottomlink2{
     display: flex;
@@ -173,6 +178,10 @@ a{
 }
 .lastlink{
 padding: 30px 60px;
+cursor: pointer;
+}
+.lastlink a:hover{
+    color: aquamarine;
 }
 .invites a{
 color: white;
@@ -205,9 +214,18 @@ color: white;
     }
     .text2{
         padding-bottom: 0px;
+       
+        font-size: 13px;
     }
     .text2 h1{
         font-size: 30px;
+      padding-bottom: 15px;
+    }
+    .about{
+        gap: 30px;
+        padding: 20px 40px;
+        grid-template-columns: repeat(2, 1fr);
+
     }
     .pic img{
         padding: 0px;
@@ -219,8 +237,16 @@ color: white;
     .box div{
         padding: 0px;
     }
-    .lattestbox p{
+    
+    .lattestbox{
         font-size: 10px;
+        gap: 50px;
+        
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .lattestbox p{
+        font-size: 13px;
     }
     .links{
         gap: 5rem;
@@ -298,7 +324,7 @@ color: white;
     .sociallinks{
         display: flex;
         width: 100%;
-        gap: 5rem;
+        gap: 3rem;
     }
     
     .links{
@@ -343,4 +369,13 @@ color: white;
     padding: 10px 20px;
    }
    
+.about{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.lattestbox p{
+    margin-bottom: 60px;
+    font-size: 13px;
+}
 }
