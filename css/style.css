@@ -391,11 +391,13 @@ color: white;
     .about{
         text-align: center;
     }
-    .lattestbox{
-        text-align: center;
-    }
+    
     .lattestbox p{
-        padding: 20px 30px;
+        padding: 20px 20px;
+        font-size: 13px;
+    }
+    .box div h1{
+        padding: 20px;
     }
 
 
