@@ -201,6 +201,10 @@ color: white;
     padding-top: 40px;
     font-size: 10px;
 }
+.navtoogle{
+    display: none;
+}
+
 @media screen and (max-width:992px){
     .text h1{
         font-size: 30px;
@@ -253,6 +257,32 @@ color: white;
     }
     .lastlink{
         padding: 30px 40px;
+    }
+}
+@media screen and (max-width:700px){
+    .navtoogle{
+        display: block;
+    }
+    .close{
+        display: none;
+    }
+    .navbutton{
+        display: none;
+    }
+    .navlinks{
+        position: fixed;
+        left: 50%;
+        top: -40%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        width: 300px;
+        padding: 30px 0;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px 10px 40px rgb(41, 6, 6),
+                    -10px -10px 40px rgb(41, 6, 6);
+         transition:  .6s;
+         border-radius: 10px;
     }
 }
 @media screen and (max-width:576px){
