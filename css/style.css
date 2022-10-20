@@ -298,9 +298,9 @@ color: white;
         width: 300px;
         padding: 30px 0;
         flex-direction: column;
-        background-color: rgb(255, 219, 219);
-        box-shadow: 10px 10px 40px rgb(41, 6, 6),
-                    -10px -10px 40px rgb(41, 6, 6);
+        background:linear-gradient(to right, rgb(0, 255, 213),rgb(0, 153, 255));
+        box-shadow: 10px 10px 40px rgb(6, 41, 29),
+                    -10px -10px 40px rgb( 6, 41, 29);
          transition:  .6s;
          border-radius: 10px;
     }
@@ -423,6 +423,7 @@ color: white;
     gap: 30px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .lattestbox p{
     margin-bottom: 60px;
